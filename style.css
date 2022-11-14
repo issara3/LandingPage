@@ -4,7 +4,7 @@ body{
     flex-direction: column;
     margin:0;
     min-height: 1400px;
-    font-family: Tahoma;
+    font-family: 'Roboto', arial;;
 }
 
 .header{
@@ -14,7 +14,7 @@ body{
     padding-left: 400px;
     padding-right: 400px;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 100px;
 }
 
 .logo{
@@ -51,7 +51,7 @@ a{
     background-color: #1F2937;
     padding-left: 400px;
     padding-right: 400px;
-
+    padding-bottom: 150px;
     align-items: center;
     flex:1;
 }
@@ -76,6 +76,7 @@ a{
 
 .one .left .button{
     min-width: 100px;
+    min-height: 30px;
     background-color: #3882F6;
     color: white;
     border-radius: 25px;
@@ -86,6 +87,9 @@ a{
     display: flex;
     object-fit: cover;
     align-self:stretch;
+    min-width: 600px;
+    max-height: 400px;
+
 }
 
 .two{
@@ -97,18 +101,27 @@ a{
     gap: 20px;
     padding-left: 600px;
     padding-right: 600px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
-.two .TwoImg{ 
-    border-radius: 25px;
-    border:5px #3882F6;
+.info p{
+    text-align: center;
+}
+
+.two .content .info .TwoImg{ 
+    border-radius: 15px;
+    border:5px solid #3882F6;
     border-width: medium;
+    min-height: 150px;
+    min-width: 150px;
 }
 
 .TwoHeader{
     font-size: 36px;
     font-weight: 800;
     font: #1F2937;
+    padding-bottom: 50px;
 }
 
 .two .content{
@@ -126,6 +139,8 @@ a{
     flex:1;
     padding-left: 400px;
     padding-right: 400px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .three .message{
@@ -187,5 +202,5 @@ a{
     color: white;
     margin: 0;
     font-size: 10px;
-    padding: 15px;
+    padding: 30px;
 }
