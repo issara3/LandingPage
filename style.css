@@ -1,0 +1,191 @@
+body{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    margin:0;
+    min-height: 1400px;
+    font-family: Tahoma;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    padding-left: 400px;
+    padding-right: 400px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.logo{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+    gap: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    justify-content: space-evenly;
+
+}
+
+.one{
+    display: flex;
+    background-color: #1F2937;
+    padding-left: 400px;
+    padding-right: 400px;
+
+    align-items: center;
+    flex:1;
+}
+
+
+.one .left{
+    flex:1;
+    flex-direction: column;
+
+
+}
+
+.one .left .OneHeader{
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.one .left .content{
+    color: #F9FAF8;
+}
+
+.one .left .button{
+    min-width: 100px;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 25px;
+    border: 0;
+}
+
+.one .right .OneImage{
+    display: flex;
+    object-fit: cover;
+    align-self:stretch;
+}
+
+.two{
+    display: flex;
+    flex:1;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 600px;
+    padding-right: 600px;
+}
+
+.two .TwoImg{ 
+    border-radius: 25px;
+    border:5px #3882F6;
+    border-width: medium;
+}
+
+.TwoHeader{
+    font-size: 36px;
+    font-weight: 800;
+    font: #1F2937;
+}
+
+.two .content{
+    display: flex;
+    gap: 50px;
+}
+
+.three{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    gap:0px;
+    flex:1;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+
+.three .message{
+    font-size: 36px;
+    font: #1f2937;
+    font-weight: lighter;
+}
+
+.three .signature{
+    align-self: flex-end;
+}
+
+.four{
+    display: flex;
+    background-color: #3882F6;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 400px;
+    margin-right: 400px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 25px;
+    justify-content: space-evenly;
+}
+
+.four .dial{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    flex:1;
+    margin-left: 150px;
+    gap: 10px;
+}
+
+.four .dial .FourHeader{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.four button{
+    color: white;
+    border-radius: 15px;
+    border-color: white;
+    border-width: thin;
+    background-color: #3882F6;
+    max-height: 40px;
+    max-width: 150px;
+    flex: 1;
+    margin-right: 150px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer{
+    text-align: center;
+    justify-content: flex-end;
+    background-color: #1F2937;
+    color: white;
+    margin: 0;
+    font-size: 10px;
+    padding: 15px;
+}
